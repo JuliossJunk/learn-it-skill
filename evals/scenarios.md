@@ -22,5 +22,7 @@ These are evaluation criteria, not claims that every scenario has passed.
 | Sparse or incomparable history | The report distinguishes accumulation from growth and states uncertainty |
 | A later failure follows success | Both attempts remain visible; the cumulative chart is not described as current mastery |
 | A legacy Markdown course is reviewed | Existing history is cited without silently creating state or inventing metrics |
+| A non-English learner requests a review | All report text, labels, and accessibility text use the communication language without a separate translation request |
+| A learner studies a foreign language | The agreed explanation language and target language remain distinct; report language follows the communication preference |
 
 Use isolated temporary courses. Save actual outputs and file changes when conducting behavioral evaluations. Record completed runs separately in [RESULTS.md](RESULTS.md).

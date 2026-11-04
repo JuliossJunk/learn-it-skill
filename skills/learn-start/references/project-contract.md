@@ -79,6 +79,10 @@ A later failure warrants investigation and a review entry; preserve previous suc
 
 ## Teaching and assessment
 
+Use the learner's explicitly chosen communication language, otherwise the language saved in their profile, otherwise the language of their current request. Apply it to lessons, feedback, summaries, and the entire HTML review, including headings, chart labels, legends, tables, empty states, accessibility text, and conclusions. The English language of these skill files is not a learner-language preference. Preserve stable IDs, file paths, code, and source titles where translation would change their meaning.
+
+For language study, distinguish the target language from the language of explanation. Follow an agreed immersion or bilingual format; a target-language course alone does not change the report language. Ask only when a consequential preference remains ambiguous.
+
 Teach in small steps: explanation or worked example → learner attempt → diagnostic feedback → adjusted practice. Fade hints. Separate routine practice from transfer and delayed retrieval. Use code where it illuminates the idea; mathematical reasoning and interpretation need their own checks.
 
 Practice may provide immediate feedback and graduated hints. A check measures unaided understanding only before such help is given. In exam mode, agree on scope, time, permitted tools, and when feedback arrives; save unfinished work as unfinished. A request for help can switch the current item to practice without pretending it remained unaided.

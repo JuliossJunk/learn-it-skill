@@ -14,7 +14,7 @@ Five skills for a personal learning project that carries across sessions: set a 
 | `learn-test` | `$learn-test Check my understanding` | Questions, feedback on real answers, and a record of assistance |
 | `learn-review` | `$learn-review Create an HTML learning report` | An offline visual report with all topics, evidence over time, review needs, and qualified findings about growth |
 
-Instructions and interface metadata are in English. Lessons and report narratives can follow the learner's language. Skills may also be selected when a request matches their descriptions. They do not run in the background.
+Instructions and skill-selector metadata are in English. Lessons, feedback, and the entire HTML report follow the learner's communication language by default: an explicit preference, then the saved profile, then the current request. This includes report headings, chart labels, and conclusions. In language courses, the target language and explanation language are separate preferences. Skills may also be selected when a request matches their descriptions. They do not run in the background.
 
 ## What persists
 
@@ -53,7 +53,7 @@ To render a structured course directly, from this repository's root:
 python skills/learn-review/scripts/render_review.py /path/to/course --output /path/to/course/reports/review.html --as-of 2026-11-05
 ```
 
-Use the learner's actual local date. Omit `--as-of` when unknown; reviews will be shown without overdue labels. The cutoff applies to attempts; topic statuses remain the current saved roadmap. Choose a fresh output filename for each report. The script creates the visual baseline; the skill inspects source attempts and adds the interpretive narrative. Legacy Markdown courses are reviewed directly by the agent without a state migration.
+Use the learner's actual local date. Omit `--as-of` when unknown; reviews will be shown without overdue labels. The cutoff applies to attempts; topic statuses remain the current saved roadmap. Choose a fresh output filename for each report. Direct script output is an English visual baseline; the skill localizes the entire artifact, inspects source attempts, and adds the interpretive narrative. Legacy Markdown courses are reviewed directly by the agent without a state migration.
 
 The chart counts outcomes with independent evidence. An upward line alone does not establish growth. Changes in task difficulty, assistance, or grading need inspection, and sparse records are labelled insufficient. No overall mastery probability is calculated. Reports stay local unless publication is requested.
 
