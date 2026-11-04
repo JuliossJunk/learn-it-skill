@@ -12,6 +12,16 @@ Date: 2026-11-05.
 
 PyYAML was used for the external skill-format validator only. The course helper, review renderer, demo generator, and test suite require no third-party Python packages.
 
+## Installation checks
+
+- The expanded suite ran 31 tests: 30 passed and one symlink-creation test was skipped because this Windows host does not grant symlink creation. Fourteen tests cover the installer; the earlier 17 state and review tests still pass.
+- Project installation and file checks passed for all five agent destinations: Codex, Claude Code, Cursor, GitHub Copilot, and OpenCode. Tests include full-bundle copying, shared resources, user-path selection, paths containing spaces, dry runs, idempotence, adoption of identical manual copies, explicit updates, conflict preservation, obsolete-file removal, uninstall boundaries, and restoration after a simulated filesystem failure.
+- The Skills CLI discovered all five skills and installed the local checkout into an isolated project for the five selected agents with `--copy`. Installed files matched the sources in both its shared `.agents/skills` directory and its `.claude/skills` copies. The installed review renderer produced an HTML report, and the installed state helper validated the fictional example course.
+- The same five-agent installation also succeeded directly from `JuliossJunk/learn-it-skill` on GitHub into a second isolated project with `--skill '*' --copy --yes`. Its installed renderer and validator also ran successfully. Text assets explicitly use LF in Git checkouts to keep installation hashes consistent across platforms.
+- Agent directory and invocation instructions were checked against the vendor documentation linked in [the installation guide](../docs/installation.md). These checks verify packaging, paths, and scripts; they do not claim an interactive tutoring session was run inside all five agent applications.
+
+The Python installer uses only the standard library. Its integration tests ran on Windows; macOS and Linux were not exercised in this session. Real linked-directory refusal was not exercised because the symlink setup test was skipped.
+
 ## Earlier behavioral evidence
 
 Before repository packaging, an independent agent exercised `learn-progress` on a legacy Markdown course. The recorded result distinguished assisted practice from retention, preserved a learner correction about two different formulas, listed pending questions, and did not start a lesson. The agent reported no writes to the course. That private transcript and its machine-specific installation record are not distributed here; this is a historical summary, not a new validation of the five-skill bundle.

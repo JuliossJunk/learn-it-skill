@@ -4,6 +4,18 @@ Five skills for a personal learning project that carries across sessions: set a 
 
 [Russian README](README.ru.md) · [MIT license](LICENSE)
 
+## Quick install
+
+For Codex, Claude Code, Cursor, GitHub Copilot, and OpenCode. With Node.js 22.20+ and Git:
+
+```sh
+npx skills add JuliossJunk/learn-it-skill --skill '*' --agent codex --global
+```
+
+Replace `codex` with `claude-code`, `cursor`, `github-copilot`, or `opencode`. Omit `--global` to install into your current project. Install all five skills together so shared references work. This command uses the third-party [Skills CLI](https://github.com/vercel-labs/skills).
+
+Prefer Python or a downloaded ZIP? Use the [bundled installer](docs/installation.md#bundled-python-installer), which has no third-party dependencies. The [installation guide](docs/installation.md) includes all five agents, project scope, updates, removal, troubleshooting, and a prompt you can paste into your coding agent.
+
 ## Skills
 
 | Skill | Example prompt | Result |
@@ -35,13 +47,18 @@ reports/       Generated HTML reviews, when requested
 
 Coverage, independent performance, and delayed retention are separate. A hinted answer stays assisted; a skipped topic stays skipped. The skills work with existing Markdown courses without resetting their history. New courses prepare the first lesson in detail and keep later sections as outlines until needed.
 
-## Install locally in Codex
+## Install from a local checkout
 
-Clone this repository, then copy all five directories under `skills/` into `~/.agents/skills/`. Keep them together: the skills share the contract and validator in `learn-start`. Compare any existing directories with the same names before replacing them.
+```sh
+git clone https://github.com/JuliossJunk/learn-it-skill.git
+cd learn-it-skill
+python scripts/install.py install --agent codex
+python scripts/install.py check --agent codex
+```
 
-The user-level location and discovery behavior are documented in [OpenAI's skill guide](https://learn.chatgpt.com/docs/build-skills). If a newly installed skill does not appear, restart Codex. This repository provides skill folders for local installation.
+Choose the agent ID for your host. The default is user scope. Use `--dry-run` to preview installation, `install --update` to update an unchanged managed bundle, and `uninstall` to remove it. Existing edits and conflicting skills are preserved. See the [full guide](docs/installation.md) for paths and project installations.
 
-Python 3.10+ is required for the state helper and HTML renderer. Both use only the standard library. The teaching, source selection, and assessment of open answers are performed by the agent.
+Python 3.10+ is required for the installer, state helper, and HTML renderer. All use only the standard library. The teaching, source selection, and assessment of open answers are performed by the agent.
 
 ## HTML reviews
 

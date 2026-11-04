@@ -1,0 +1,2 @@
+# Keep text assets consistent between clones and ZIP installations.
+* text=auto eol=lf
