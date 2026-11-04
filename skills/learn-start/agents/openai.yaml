@@ -1,0 +1,4 @@
+interface:
+  display_name: "Start learning"
+  short_description: "Goals, diagnostics, sources, and a learning plan"
+  default_prompt: "Use $learn-start to clarify my goal and create a learning project with a plan and practice."

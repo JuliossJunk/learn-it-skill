@@ -1,0 +1,4 @@
+interface:
+  display_name: "Continue learning"
+  short_description: "Resume a lesson or prepare the next topic"
+  default_prompt: "Use $learn-next to continue my learning project from its saved stopping point."

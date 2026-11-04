@@ -1,0 +1,4 @@
+interface:
+  display_name: "Check understanding"
+  short_description: "Assess understanding, assistance, and mistakes"
+  default_prompt: "Use $learn-test to check my understanding of the material I have studied."

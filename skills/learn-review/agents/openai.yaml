@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learning review"
+  short_description: "Visual HTML reports of topics, evidence, and growth"
+  default_prompt: "Use $learn-review to create an HTML report of my learning roadmap, evidence, and progress over time."

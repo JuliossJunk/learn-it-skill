@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learning progress"
+  short_description: "Current topic, demonstrated skills, and open gaps"
+  default_prompt: "Use $learn-progress to show my learning evidence and exact stopping point."
