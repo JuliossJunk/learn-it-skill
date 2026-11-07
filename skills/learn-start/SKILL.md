@@ -17,15 +17,27 @@ Explicitly ask whether the learner has books, notes, courses, links, example tas
 
 Use a small diagnostic appropriate to the learner's claimed background. Request reasoning, allow “I don't know”, and separate arithmetic slips, notation gaps, and conceptual mistakes. Self-reported confidence and professional seniority guide question choice; actual responses establish the starting point.
 
-Summarize the brief and get agreement before treating a curriculum as accepted. Keep a requested exploratory plan labelled provisional. When a known decision is already approved, use it without re-asking.
+Summarize the brief and reuse decisions already agreed with the learner. Agreement on goals or background is not approval of a curriculum. Interview, diagnostic questions, and source discovery may proceed before plan approval; course creation and teaching follow the approval gate below.
 
 ## Design the curriculum
 
 Work backward from observable outcomes. Each section has stable IDs, prerequisites, a realistic time estimate, relevant sources, practice, and an exit check. Sequence missing foundations before dependent topics. Include explanation, routine execution, error diagnosis, and application to a changed problem where relevant. Reserve time for review and checks inside the agreed budget.
 
-Plan the broad route, prepare the first executable section in detail, and give later sections concise outlines. Mark outlines as outlines; create their full materials before teaching them. Keep the route adaptable to evidence and resource discoveries. A deadline or page count is a planning constraint, not evidence of mastery.
+Read [baseline and extension planning](references/curriculum-planning.md) when drafting the curriculum. Present a recognizable baseline appropriate to the learner's goal and explain which verified standards, curricula, practices, or recommendations support it. Include a separate optional block of useful, less obvious extensions with their benefits and prerequisites.
+
+Draft the broad route and describe the proposed first section; prepare full lesson materials only after approval. Later sections can remain concise outlines. Keep the route adaptable to evidence and resource discoveries. A deadline or page count is a planning constraint, not evidence of mastery.
+
+## Stop for explicit plan approval
+
+Show the complete proposed plan in the conversation, clearly labelled as a draft. Include the intended capabilities and baseline level, cited rationale, section sequence and prerequisites, time estimates within the budget, practice and exit checks, and the optional extensions. State which extensions, if any, the proposal includes; unselected extensions remain outside the core route and its time estimate.
+
+Ask the learner to approve this specific plan or request changes, then end the response and wait for their reply. Before approval, do not create course files or directories, initialize Git, prepare full lessons, begin teaching, or advance to a section. A request to start learning, agreement with the brief, silence, or elapsed time does not approve a plan that has not yet been presented. If the learner explicitly requests a saved draft, clarify that this workflow presents the draft in chat and saves course files after approval.
+
+Accept an explicit affirmative reply to the presented plan, such as approval to proceed with that plan. If the reply only answers a question or requests changes, resolve it, show the revised proposal, and wait for approval again. Reuse approval already given to the same unchanged plan; do not ask repeatedly. Changes to agreed goals, scope, baseline, extension selection, or time commitment require approval of the revised plan before implementation.
 
 ## Create the project
+
+Enter this phase only after the approval gate is satisfied. Record the accepted plan and a faithful note of the learner's approval in `PLAN.md`, including the date and any conditions. Prepare the first executable lesson and label later materials as outlines until prepared.
 
 Create a dedicated local project directory, using the agreed path or a clearly named folder in the selected workspace. A requested repository means local Git by default: initialize only that dedicated directory if it is not already part of a repository. Remote creation, publication, and pushes require a separate user request. Keep unrelated workspace data outside the new project.
 

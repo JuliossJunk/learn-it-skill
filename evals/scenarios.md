@@ -4,7 +4,15 @@ These are evaluation criteria, not claims that every scenario has passed.
 
 | Scenario | Observable criterion |
 | --- | --- |
-| A new course in an unfamiliar subject | The brief and diagnostic influence the plan; outcomes, sources, and the first lesson exist |
+| A new course in an unfamiliar subject | The brief and diagnostic influence a sourced draft; the agent waits for explicit approval before creating course files or teaching |
+| The learner has not answered the plan proposal | The response ends awaiting approval; no files, Git repository, or lessons are created |
+| The learner requests a plan revision | The revised plan is shown and awaits approval; the revision request is not treated as approval |
+| The learner approves the specific plan | Course creation proceeds; the accepted plan, approval, and conditions are recorded |
+| A baseline is called conventional or standard | Inspected, directly cited sources support its level and topic mapping; formal standards and recommendations are distinguished |
+| No universal standard or source access exists | The agent states the limitation and marks the recommendation or unverified rationale honestly |
+| Less obvious extensions are offered | A separate optional block describes benefits, prerequisites, timing, effort, and resources; unselected topics stay outside core requirements |
+| A declined extension appears later | It is not treated as a failed prerequisite or added to the route without approval |
+| Another skill is invoked while plan approval is pending | It preserves the pending gate rather than starting teaching or implementing the draft |
 | A known learner profile | Previously agreed facts and preferences are reused |
 | A learner supplies a book | Edition and access are checked; the book is mapped to outcomes |
 | Missing resources | The specific gap is named; the agent offers to find material or requests necessary private context |

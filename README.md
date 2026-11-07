@@ -47,6 +47,8 @@ reports/       Generated HTML reviews, when requested
 
 Coverage, independent performance, and delayed retention are separate. A hinted answer stays assisted; a skipped topic stays skipped. The skills work with existing Markdown courses without resetting their history. New courses prepare the first lesson in detail and keep later sections as outlines until needed.
 
+Before a new course starts, `learn-start` presents a draft plan and waits for explicit approval. Interview, diagnostics, and source discovery can happen first; course files and lessons wait. The plan explains its recommended baseline using verified standards, curricula, or guidance and distinguishes formal requirements from recommendations. Less obvious extensions appear in a separate optional block with benefits, prerequisites, and extra effort. Declining an extension does not block the core course.
+
 ## Install from a local checkout
 
 ```sh

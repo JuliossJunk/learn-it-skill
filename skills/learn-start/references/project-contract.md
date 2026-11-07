@@ -4,6 +4,8 @@ This is the single shared contract for `learn-start`, `learn-progress`, `learn-n
 
 ## Find and resume
 
+New or substantially redesigned curricula follow the explicit plan-approval gate in `learn-start/SKILL.md`. Before approval, interview, diagnostics, and source discovery are permitted; course-file creation, curriculum implementation, and teaching wait. Other learning skills must not bypass a known pending approval. Record the accepted plan, approval, baseline rationale, and optional extension choices in `PLAN.md`; this is plan metadata, not evidence of learning. Existing courses with an accepted plan continue normally without retrospective reapproval. Ask for clarification when a pending proposal makes the accepted scope ambiguous; missing legacy approval metadata alone is not a reason to restart approval.
+
 Use the project named by the learner or the learning project in the selected workspace. Start with `README.md`, `RESUME.md`, and `state.json`; then read the relevant section and referenced evidence. Avoid loading every lesson or transcript. With multiple plausible projects, ask which one. Missing state is a migration task, not proof that the learner is starting over.
 
 Legacy files such as `profile.md`, `plan.md`, `diagnostic.md`, and `progress.md` are valid learning history. When changing their structure, preserve originals and link them as evidence. Make the smallest additive migration needed for the requested operation. A request to view progress is read-only, including on a legacy project; report uncertainty instead of migrating it silently.

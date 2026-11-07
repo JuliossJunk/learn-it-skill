@@ -1,5 +1,9 @@
 # Validation results
 
+## Curriculum approval update — 2026-11-08
+
+The instructions now require explicit approval of the presented plan before course-file creation or teaching. Baseline recommendations require inspected sources and an explicit rationale; extensions remain separately optional. New behavioral scenarios cover pending approval, revisions, acceptance, source uncertainty, declined extensions, and cross-skill continuation. These scenarios specify expected behavior; an independent conversational evaluation of this update has not yet been run. Python regression tests check the existing scripts, not compliance with this instruction-level gate.
+
 Date: 2026-11-05.
 
 ## Repository checks
