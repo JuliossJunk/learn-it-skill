@@ -30,6 +30,8 @@ Instructions and skill-selector metadata are in English. Lessons, feedback, and 
 
 ## What persists
 
+New courses begin with a short adaptive diagnostic, normally 3–5 tasks presented one at a time. The proposed plan explains how observed strengths and gaps affect its starting point, depth, pace, and practice choices. Each lesson opens with observable competencies and a complete theoretical block with authoritative references, saved in Markdown and linked in chat. Practice follows the learner's readiness. Correct answers receive a short explanation; corrections and clarification are reserved for consequential issues rather than harmless differences in phrasing or method.
+
 Each course has its own local directory:
 
 ```text

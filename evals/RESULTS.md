@@ -1,5 +1,9 @@
 # Validation results
 
+## Teaching workflow update — 2026-11-08
+
+Added proportionate feedback, an adaptive pre-plan diagnostic with decision rationale, explicit lesson competencies, and full sourced theory saved in linked Markdown lesson files. Updated behavioral scenarios specify these expectations, including accepting equivalent correct answers and waiting for practice readiness. These are instruction changes; script regression tests do not establish conversational compliance, and independent behavioral evaluation remains pending.
+
 ## Curriculum approval update — 2026-11-08
 
 The instructions now require explicit approval of the presented plan before course-file creation or teaching. Baseline recommendations require inspected sources and an explicit rationale; extensions remain separately optional. New behavioral scenarios cover pending approval, revisions, acceptance, source uncertainty, declined extensions, and cross-skill continuation. These scenarios specify expected behavior; an independent conversational evaluation of this update has not yet been run. Python regression tests check the existing scripts, not compliance with this instruction-level gate.

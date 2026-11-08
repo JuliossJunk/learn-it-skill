@@ -6,6 +6,8 @@ Use this reference when proposing or substantially redesigning a curriculum. The
 
 Recommend a recognizable foundation for the intended goal and context: introductory literacy, practical independent use, academic preparation, or another clearly described level. Define observable capabilities and limits rather than calling an arbitrary topic list “standard mastery.” Adapt the starting point using the diagnostic and time budget; make any compromise visible.
 
+Include a short diagnostic-to-plan rationale: the observed response or uncertainty, the recommended choice, its effect on content/depth/pace/practice/time, and the consequence of a reasonable alternative. Use concrete decisions relevant to this learner rather than presenting a menu whose options have unexplained effects. Keep the draft and rationale subject to the explicit plan-approval gate.
+
 Find and inspect authoritative sources relevant to that level: published standards or competency frameworks, institutional curricula, professional guidance, or established primary learning materials. Verify versions and actual contents before relying on them. Prefer sources suited to the learner's use case; an advanced professional standard is not automatically a beginner's syllabus.
 
 Explain the convention explicitly in learner-facing language: what is commonly expected at this level, who describes it, and which part of the proposed route it supports. Cite direct source locations and map the main topic groups to them. Distinguish a formal standard from a recommended practice, an example curriculum, and the agent's own synthesis. Familiarity with a source title alone is insufficient evidence of alignment.

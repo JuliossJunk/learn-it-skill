@@ -17,7 +17,7 @@ For interactive checks, normally present one task at a time, with a manageable b
 
 ## Grade evidence
 
-Save the actual answer and reasoning. Distinguish correct method with a slip, partial reasoning, conceptual error, ambiguity, and no attempt. If interpretation is uncertain, ask a narrow clarifying question before marking it wrong. Check that the answer refers to the same function, conditions, units and task version as the rubric.
+Save the actual answer and any reasoning supplied. Apply the shared feedback rules and the stated task criteria, accepting equivalent notation, alternative valid methods, and concise answers when an explanation was not requested. Give a short explanation of why a correct answer works, then proceed according to the agreed feedback mode. Distinguish a substantive error, a material slip, and harmless wording. Ask a narrow clarification only when plausible interpretations would change the evaluation. Check the function, conditions, units, and task version before correcting the learner. Keep pre-agreed assessment tasks separate from spontaneous follow-up questions: a correct answer alone is no reason to add another check.
 
 Explain the judgement and point to the relevant step. Graduated hints may support learning, but label the resulting attempt as assisted. A revealed solution is not an independent pass. Record the assessor as model or deterministic as appropriate, and preserve user corrections if a judgement is challenged. Confidence is informative but not a score.
 
